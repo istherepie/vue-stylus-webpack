@@ -4,6 +4,11 @@
   "version": "1.0.0",
   "author": "Steffen Park <dev@istherepie.com>",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/istherepie/vue-stylus-webpack"
+  },
+  "keywords": ["vue", "stylus", "webpack", "template", "extract css"],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
